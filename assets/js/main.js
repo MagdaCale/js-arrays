@@ -171,6 +171,34 @@ console.log(zahlen)
 //Level 1.9
 console.log('Level 1.12:', 'Array slice()')
 
+let array = [
+    "imageTeilnehmer000supercode.jpg",
+    "imageTeilnehmer001supercode.jpg",
+    "imageTeilnehmer002supercode.jpg",
+    "imageTeilnehmer003supercode.jpg",
+    "imageTeilnehmer004supercode.jpg",
+    "imageTeilnehmer005supercode.jpg",
+    "imageTeilnehmer006supercode.jpg",
+    "imageTeilnehmer007supercode.jpg",
+    "imageTeilnehmer008supercode.jpg",
+    "imageTeilnehmer009supercode.jpg",
+    "imageTeilnehmer010supercode.jpg",
+    "imageTeilnehmer011supercode.jpg",
+    "imageTeilnehmer012supercode.jpg",
+    "imageTeilnehmer013supercode.jpg",
+    "imageTeilnehmer014supercode.jpg",
+    "imageTeilnehmer015supercode.jpg",
+    "imageTeilnehmer016supercode.jpg",
+    "imageTeilnehmer017supercode.jpg",
+    "imageTeilnehmer018supercode.jpg",
+    "imageTeilnehmer019supercode.jpg"
+];
 
+console.log(array)
 
+const copyImage1 = array.slice(7,15)
 
+console.log(copyImage1)
+
+const copyImage2 = array.slice(6,12)
+console.log(copyImage2)
